@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 80%;
+    
+ }
+
+ body {
+    margin: 0;
+    background: rgb(68,68,68);
+    font-size: 110%;
+ }
+ 
+ *, *::before, *::after {
+    box-sizing: border-box;
+ }
+ header {
+   background-color: #4d4d4d ;
+   letter-spacing: 1px;
+}
+header .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 5rem;
+}
+header .Hlogo {
+   font-size: 1.8rem;
+}
+header a {
+   color: white;
+   text-decoration: none;
+}
+header nav a:hover {
+   color: #fdd947;
+}
+header nav ul {
+   display: flex;
+   padding-left: 0;
+   list-style: none;
+   gap:  2rem;
+}
+ .container , .projectbox , .container-profiel, footer , .blog-main, .contact-container , .contact-main , .container-projects2, .main-container, .main-banner , .main , .main-contact{
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 100%;
+    max-width: 1200px;
+ }
+
+ .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height: 65.6px;
+   width: 100%;
+   background-color: #444444;
+   color: white;
+   text-align: center;
+   padding-top: 23px;
+ }
+ .active {
+    text-decoration: underline 2.5px #fdd947;
+ }
+ .btn {
+    text-decoration: none;
+    color: #303030;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: #fdd947;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all .2s ease-in-out;
+ }
+ .btn:hover {
+   transform: scale(1.2); 
+ }
+.fabclass{
+   font-size: 1.5rem;
+}
+.txtcv {
+   font-size: 1.5rem;
+}
+.error {
+   border-radius: 15px;
+   padding: 2px 2px 2px 2px;;
+}
+.input1 , #message {
+   background-color: transparent;
+   border: none;
+   border-bottom: 2px solid #303030;
+}
+.input1:focus , #message:focus {
+   outline: none;
+   border-bottom: 2px solid #fdd947;
+   -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+ 
